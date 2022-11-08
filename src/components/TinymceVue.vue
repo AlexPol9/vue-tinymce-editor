@@ -125,57 +125,57 @@
 
             importTinyMCE() {
                 if (!window.tinymce) {
-                    return import('tinymce/tinymce')
+                    return import(/* webpackMode: "eager" */'tinymce/tinymce')
                         .then(() => {
                             const promises = [];
 
-                            promises.push(import('tinymce/themes/modern/theme'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/themes/modern/theme'));
 
-                            promises.push(import('tinymce/plugins/advlist'));
-                            promises.push(import('tinymce/plugins/wordcount'));
-                            promises.push(import('tinymce/plugins/autolink'));
-                            promises.push(import('tinymce/plugins/autosave'));
-                            promises.push(import('tinymce/plugins/charmap'));
-                            promises.push(import('tinymce/plugins/codesample'));
-                            promises.push(import('tinymce/plugins/contextmenu'));
-                            promises.push(import('tinymce/plugins/emoticons'));
-                            promises.push(import('tinymce/plugins/fullscreen'));
-                            promises.push(import('tinymce/plugins/hr'));
-                            promises.push(import('tinymce/plugins/imagetools'));
-                            promises.push(import('tinymce/plugins/insertdatetime'));
-                            promises.push(import('tinymce/plugins/link'));
-                            promises.push(import('tinymce/plugins/media'));
-                            promises.push(import('tinymce/plugins/noneditable'));
-                            promises.push(import('tinymce/plugins/paste'));
-                            promises.push(import('tinymce/plugins/print'));
-                            promises.push(import('tinymce/plugins/searchreplace'));
-                            promises.push(import('tinymce/plugins/tabfocus'));
-                            promises.push(import('tinymce/plugins/template'));
-                            promises.push(import('tinymce/plugins/textpattern'));
-                            promises.push(import('tinymce/plugins/visualblocks'));
-                            promises.push(import('tinymce/plugins/anchor'));
-                            promises.push(import('tinymce/plugins/autoresize'));
-                            promises.push(import('tinymce/plugins/bbcode'));
-                            promises.push(import('tinymce/plugins/code'));
-                            promises.push(import('tinymce/plugins/colorpicker'));
-                            promises.push(import('tinymce/plugins/directionality'));
-                            promises.push(import('tinymce/plugins/fullpage'));
-                            promises.push(import('tinymce/plugins/help'));
-                            promises.push(import('tinymce/plugins/image'));
-                            promises.push(import('tinymce/plugins/importcss'));
-                            promises.push(import('tinymce/plugins/legacyoutput'));
-                            promises.push(import('tinymce/plugins/lists'));
-                            promises.push(import('tinymce/plugins/nonbreaking'));
-                            promises.push(import('tinymce/plugins/pagebreak'));
-                            promises.push(import('tinymce/plugins/preview'));
-                            promises.push(import('tinymce/plugins/save'));
-                            promises.push(import('tinymce/plugins/spellchecker'));
-                            promises.push(import('tinymce/plugins/table'));
-                            promises.push(import('tinymce/plugins/textcolor'));
-                            promises.push(import('tinymce/plugins/toc'));
-                            promises.push(import('tinymce/plugins/visualchars'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/advlist'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/wordcount'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/autolink'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/autosave'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/charmap'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/codesample'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/contextmenu'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/emoticons'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/fullscreen'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/hr'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/imagetools'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/insertdatetime'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/link'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/media'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/noneditable'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/paste'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/print'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/searchreplace'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/tabfocus'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/template'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/textpattern'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/visualblocks'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/anchor'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/autoresize'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/bbcode'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/code'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/colorpicker'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/directionality'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/fullpage'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/help'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/image'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/importcss'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/legacyoutput'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/lists'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/nonbreaking'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/pagebreak'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/preview'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/save'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/spellchecker'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/table'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/textcolor'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/toc'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/plugins/visualchars'));
                             
-                            promises.push(import('tinymce/skins/lightgray/skin.min.css'));
+                            promises.push(import(/* webpackMode: "eager" */'tinymce/skins/lightgray/skin.min.css'));
 
                             return Promise.all(promises)
                         })
