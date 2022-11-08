@@ -57,10 +57,10 @@
     "tinymce",
     "editor"
   ],
-  "homepage": "https://github.com/dyonir/vue-tinymce-editor/#readme",
+  "homepage": "https://github.com/AlexPol9/vue-tinymce-editor/#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dyonir/vue-tinymce-editor.git"
+    "url": "https://github.com/AlexPol9/vue-tinymce-editor.git"
   },
   "engines": {
     "node": ">= 4.0.0",
